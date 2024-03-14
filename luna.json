@@ -1,0 +1,199 @@
+{
+    "version": "5.3.0",
+    "projectId": "128c915d8a74aed48a0d57a1ccaee2cc",
+    "applicationID": 18886,
+    "creativeName": "",
+    "pgServer": "EU",
+    "window": {
+        "‐ ": true
+    },
+    "unity": {
+        "scripts": {
+            "excludes": [
+                "**/Editor/",
+                "**/Luna/RuntimeScripts/"
+            ],
+            "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
+            "msbuildWin64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe",
+            "externalSources": [],
+            "externalJSLibraries": [],
+            "scriptingDefines": [],
+            "msbuildVersion": "17.7",
+            "monoVersion": "N/A",
+            "dotnetVersion": "N/A"
+        },
+        "assets": {
+            "export": [
+                "resources",
+                "streamingAssets"
+            ],
+            "excludes": [
+                "**/Editor/"
+            ],
+            "includes": [
+                "Assets/Resources/DOTweenSettings.asset"
+            ]
+        },
+        "scenes": [
+            "Assets/Scenes/DemoScene.unity",
+            "Assets/Scenes/MainMenu.unity",
+            "Assets/Scenes/SampleScene.unity",
+            "Assets/Scenes/SettingsScene.unity",
+            "Assets/Scenes/ShopScene.unity"
+        ],
+        "disabledScenes": [],
+        "startupScene": 2,
+        "packages": {
+            "default": {
+                "applicationName": "",
+                "orientation": "unspecified",
+                "languages": [
+                    "en"
+                ]
+            },
+            "ironsource": {
+                "applicationGenre": "",
+                "versionName": "",
+                "apiType": 0,
+                "playableMode": 0,
+                "packageType": 0
+            },
+            "facebook": {
+                "assetID": "",
+                "packageType": 0,
+                "disableCompression": false
+            }
+        },
+        "preloader": {
+            "active": true,
+            "icon": "",
+            "logo": "",
+            "backgroundHexColor": "#914AFA"
+        },
+        "enableRealtimeShadows": false,
+        "enableLunaCompilerV2": false,
+        "optimiseShaderVariantsExport": true,
+        "enableMecanimWASM": false,
+        "minify": true,
+        "forceUncompressed": false,
+        "forceBase64": false,
+        "genericCheck": true,
+        "disableAntiAliasing": true,
+        "preferWebGl2": false,
+        "forceStableRandomSeed": false,
+        "unusedModules": [
+            {
+                "name": "physics3d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "physics2d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "particle-system",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "reflection",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "prefabs",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "mecanim-wasm",
+                "excluded": false,
+                "forceIncluded": false
+            }
+        ],
+        "disableRuntimeAnalysisForCode": true,
+        "disableRuntimeAnalysisForShaders": false,
+        "useShadersCache": true,
+        "preventUpdatingRAListWhenRAIsDisabled": false,
+        "bakeReferenceAmbientProbe": false,
+        "unusedClasses": [],
+        "unusedMethods": [],
+        "stubberDataList": [],
+        "stubberData": {
+            "SDKName": "",
+            "Namespace": "",
+            "className": "",
+            "buildPlatform": "",
+            "enabled": false
+        },
+        "playerPrefs": true,
+        "enableDynamicBatching": false,
+        "forceSourcesBasedCompilation": false
+    },
+    "assets": {
+        "rules": {
+            "texture": {
+                "default": {
+                    "maxWidth": 512,
+                    "maxHeight": 512,
+                    "format": "png32",
+                    "compression": "quantSize",
+                    "quality": 65,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": [
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Resources/unity_builtin_extra/Default-Particle"
+                    }
+                ]
+            },
+            "sound": {
+                "default": {
+                    "channels": 1,
+                    "startTime": "00:00.000",
+                    "endTime": "00:00.000",
+                    "lengthInSeconds": 0.0,
+                    "bitrate": 128,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": []
+            },
+            "font": {
+                "default": {
+                    "data": {
+                        "alphabet": " §1234567890-=qwertyuiop[]asdfghjkl;'\\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"|~ZXCVBNM<>?",
+                        "size": 64,
+                        "textureWidth": 1024,
+                        "textureHeight": 1024
+                    }
+                },
+                "overrides": []
+            },
+            "meshes": {
+                "default": {
+                    "halfPrecision": true
+                },
+                "overrides": []
+            },
+            "animations": {
+                "default": {
+                    "halfPrecision": true
+                },
+                "overrides": []
+            }
+        }
+    },
+    "logLevel_Cs": "error",
+    "logLevel_Js": "trace"
+}

@@ -1,0 +1,134 @@
+{
+    "BuildID": "34efbe77-05ff-4534-9352-958f39cc2f50",
+    "Command": "project:build",
+    "ProjectID": "128c915d8a74aed48a0d57a1ccaee2cc",
+    "ProjectStateHash": "827388b0d6561d539831d1021859a82cba739fadacd0caba8f82f675061fd4c7",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1698743553185,
+    "EndTime": 1698743570864,
+    "PlaygroundUserID": 11889,
+    "OperatingSystem": "win32",
+    "TargetPlatform": "develop",
+    "UnityVersion": "2021.3.17f1",
+    "LunaVersion": "5.3.0",
+    "LogCount": 5,
+    "Logs": [
+        {
+            "LogID": "1a0d4437-636e-4293-a51e-38aba116f5e6",
+            "Timestamp": 1698743555111,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1012",
+            "Description": "Export Error: An item with the same key has already been added. Key: Legacy Shaders/VertexLit (UnityEngine.Shader)",
+            "Details": [
+                "Legacy Shaders/Diffuse",
+                ""
+            ],
+            "DescriptionValues": [
+                "An item with the same key has already been added. Key: Legacy Shaders/VertexLit (UnityEngine.Shader)"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "Resources/unity_builtin_extra\\Legacy Shaders/Diffuse",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 0
+        },
+        {
+            "LogID": "17c86d87-f045-4387-a228-46622f733fd5",
+            "Timestamp": 1698743555304,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1012",
+            "Description": "Export Error: An item with the same key has already been added. Key: Mobile/Particles/Additive (UnityEngine.Shader)",
+            "Details": [
+                "Mobile/Particles/Additive",
+                ""
+            ],
+            "DescriptionValues": [
+                "An item with the same key has already been added. Key: Mobile/Particles/Additive (UnityEngine.Shader)"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "Resources/unity_builtin_extra\\Mobile/Particles/Additive",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 1
+        },
+        {
+            "LogID": "bde45d5e-00ba-4e2a-8d8c-9cf00c0c8f39",
+            "Timestamp": 1698743562324,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis > Code tab to enable code stripping"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 2
+        },
+        {
+            "LogID": "e654899e-390a-4637-9113-c42d7231e037",
+            "Timestamp": 1698743562324,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 92."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "92"
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 3
+        },
+        {
+            "LogID": "90be698e-d108-4c45-b0e1-c382473b5439",
+            "Timestamp": 1698743562340,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.6.4)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "FilePath": "D:/BreakGround/Packages\\manifest.json",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 4
+        }
+    ]
+}

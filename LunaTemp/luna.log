@@ -1,0 +1,9 @@
+Error: ENOENT: no such file or directory, open 'D:\BreakGround\LunaTemp\stage3\engine\unity\bin\bridge.js'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at C:\Users\osman\Downloads\5.3.0\pipeline\Jakefile.js:6:3142412
+    at Array.map (<anonymous>)
+    at _0x1c6a22.exports.removeExcludedBridgeMethodsAndClasses (C:\Users\osman\Downloads\5.3.0\pipeline\Jakefile.js:6:3142372)
+    at _0x1c6a22.exports.getScripts (C:\Users\osman\Downloads\5.3.0\pipeline\Jakefile.js:6:3134127)
+    at _0x1c6a22.exports.combineScripts (C:\Users\osman\Downloads\5.3.0\pipeline\Jakefile.js:6:3132929)
+    at _0x1c6a22.exports.getAssetsStatistic (C:\Users\osman\Downloads\5.3.0\pipeline\Jakefile.js:6:3151654)
